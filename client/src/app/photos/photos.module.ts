@@ -4,6 +4,7 @@ import { DoggyDetailsComponent } from './pages/doggy-details/doggy-details.compo
 import { UserPhotosComponent } from './pages/user-photos/user-photos.component';
 import { PhotosRoutesModule } from "./photos.routes";
 import { PhotosComponent } from './pages/photos/photos.component';
+import { PhotosStoreModule } from "./store/photos-store.module";
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { PhotosComponent } from './pages/photos/photos.component';
     PhotosComponent
   ],
   imports: [
+    PhotosStoreModule,
     PhotosRoutesModule
   ],
   providers: []

@@ -1,0 +1,1 @@
+export const PHOTOS_FEATURE_NAME = 'photos';
